@@ -1,5 +1,9 @@
 public class CCuenta {
 
+/**
+ * Clase Java de cuenta corriente. Este texto es para probar la funcionalidad
+ * de JavaDoc
+ */
 
     private String nombre;
     public String getNombre() {
@@ -30,13 +34,13 @@ public class CCuenta {
 		return tipoInter√;
 	}
 
-	public void setTipoInter√(double tipoInter√) {
-		this.tipoInter√ = tipoInter√;
+	public void setTipoInter√(double tipoInter) {
+		this.tipoInter = tipoInter;
 	}
 
 	private String cuenta;
     private double saldo;
-    private double tipoInter√©s;
+    private double tipoInter;
 
     public CCuenta()
     {
