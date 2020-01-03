@@ -1,3 +1,5 @@
+package cuentas;
+
 public class CCuenta {
 
 /**
@@ -30,8 +32,8 @@ public class CCuenta {
 		this.saldo = saldo;
 	}
 
-	public double getTipoInter√() {
-		return tipoInter√;
+	public double getTipoInter() {
+		return tipoInter;
 	}
 
 	public void setTipoInter√(double tipoInter) {
