@@ -2,9 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
         operativa_cuenta();
+        float cantidad;
+        
     }
 
 	private static void operativa_cuenta() {
+
 		CCuenta cuenta1;
         double saldoActual;
 

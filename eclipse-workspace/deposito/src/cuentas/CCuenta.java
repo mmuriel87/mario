@@ -2,7 +2,39 @@ public class CCuenta {
 
 
     private String nombre;
-    private String cuenta;
+    public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getCuenta() {
+		return cuenta;
+	}
+
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public double getTipoInter√() {
+		return tipoInter√;
+	}
+
+	public void setTipoInter√(double tipoInter√) {
+		this.tipoInter√ = tipoInter√;
+	}
+
+	private String cuenta;
     private double saldo;
     private double tipoInter√©s;
 
